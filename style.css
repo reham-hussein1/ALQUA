@@ -1,0 +1,303 @@
+/* *********************** Variables ***************************** */
+:root {
+  --main-color: #070F2B;
+  --text-color: #1B1A55;
+  --background-color: #1D24CA;
+  --container-color: #280274;
+  --v-color: rgba(0, 0, 0, 0.342);
+  --trans-color: #0802A3;
+  --white-color:white;
+  --body-color:#D2E0FB;
+  --grey-color:#D1D8C5;
+}
+/* ************************************************************** */
+/* ********************** loading section ********************** */
+.spinner {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+.spinner::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border: 10px solid red;
+  border-top-color: white;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+@keyframes loading {
+  from {
+    transform: translate(-50%, -50%) rotate(0turn);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(1turn);
+  }
+}
+/* ************************************************************** */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+body{
+  width: 99vw;
+  background-color:var(--body-color);
+}
+/* ************************************************************** */
+/* *************************header******************************* */
+header{
+  .logo-img{
+  width: 60px;
+  height: 40px;
+  }
+  #navbar-brand{
+    color: blue;
+    font-weight: 700;
+  }
+  #search{
+    width: 130px;
+    border-radius: 20px;
+  }
+  #search:focus{
+    outline: none;
+    border: 0;
+  }
+  .nav-link{
+    color: black;
+    font-weight: 700;
+  }
+  .dropdown-menu{
+    background-color: black;
+  }
+  .dropdown-item{
+    color: white;
+    font-weight: 600;
+  }
+  .nav-item:hover{
+    background-color: red;
+    border-radius: 15px;
+  }
+  .dropdown-item:hover{
+    background-color: red;
+    color: white;
+  }
+  .btn-outline-success{
+    border-radius: 20px;
+    width: 80px;
+    color: white;
+    background-color: red;
+    border: 0;
+    font-weight: 700;
+  }
+  .btn-outline-success:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+  }
+}
+footer{
+  background-color: black;
+  color: white;
+  #top{
+    padding-top: 20px;
+  }
+  .footer-logo{
+    width: 150px;
+    height: 150px;
+  }
+  .dashed{
+    border: 2px solid white;
+    border-style: dashed;
+    color: white;
+  }
+  .copyright{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  h5{
+    color: rgba(255, 0, 0, 0.692);
+    font-weight: 600;
+  }
+  a{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    color: red;
+    font-weight: 700;
+  }
+  .contact-footer{
+    color:red;
+    font-size: 20px;
+  }
+  .contact-footer:hover{
+    color: brown;
+  }
+  .social{
+    color: red;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 100%;
+    border: 1px solid red;
+  }
+  .social:hover{
+    rotate: 15deg;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+  }
+}
+/* ************************************************************** */
+.span{
+  color: rgba(0, 0, 0, 0.514);
+}
+.p-red{
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+}
+.hr{
+  border: 2px solid red;
+  border-style: dashed;
+  color: white;
+}
+/* *************************home********************************* */
+.section-1-home{
+  .explore-a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding:10px 15px;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+  .explore-a:hover{
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    padding: 7px 13px;
+  }
+  .img-home{
+    width: 80%;
+    height: 400px;
+    margin-left: 40px;
+  }
+}
+.section-2-home{
+  text-align: center;
+  padding-top: 20px;
+  h3{
+    padding-top: 10px;
+  }
+  .father{
+    position: relative;
+  }
+  .child{
+    position: absolute;
+    background-color: white;
+    border: 2px solid rgba(255, 0, 0, 0.646);
+    font-size: 30px;
+    border-radius: 100%;
+    padding: 10px;
+    top: -45px;
+    right: 40%;
+    color: red;
+  }
+  .child:hover{
+    background-color: red;
+    color: white;
+    transform: rotate(15deg);
+    padding: 15px;
+  }
+  .card{
+    border-radius: 20px;
+    border: 1px solid red;
+  }
+}
+.section-3-home{
+  margin-top: 30px;
+  .hr-div-two-home{
+    border: 2px solid red;
+    border-style: dashed;
+    color: white;
+  }
+  #top-margin-div-two-home{
+    margin-top: 20px;
+  }
+  .icons-div-two-home{
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    border-radius: 100%;
+    padding: 8px;
+  }
+  .icons-div-two-home:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    font-size: 25px;
+  }
+}
+.section-4-home{
+  .align-div-section{
+    text-align: center;
+  }
+  .content-div{
+    padding: 0 30px;
+  }
+}
+.section-5-home{
+  .card-img-top{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+  }
+  .card-icon{
+    color: red;
+    font-size: 20px;
+  }
+  .card-top{
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid red;
+  }
+  #father-more-courses{
+    position: relative;
+  }
+  .more-courses{
+    text-decoration: none;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+  }
+  .more-courses:hover{
+    padding: 7px 15px;
+    rotate: 10deg;
+  }
+}
+/* ************************* about********************************* */
