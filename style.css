@@ -423,3 +423,75 @@ footer {
   }
 }
 /* ************************* contact ********************************* */
+.section-1-contact{
+  .contact-icons{
+    color: white;
+    background-color: red;
+    border-radius: 100%;
+    padding: 20px;
+    font-size: 35px;
+  }
+  .contact-icons:hover{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+  }
+  h4{
+    margin-top: 10px;
+  }
+  .card{
+    border-radius: 20px;
+  }
+  .new{
+    display: block;
+  }
+  
+}
+.contact-form{
+  input{
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid red;
+    background-color: white;
+  }
+  input::placeholder{
+    color: rgba(255, 0, 0, 0.555);
+    font-weight: 600;
+    padding-left: 20px;
+  }
+  .first-roww{
+    width: 45%;
+  }
+  .roww-2{
+    width: 90%;
+  }
+  textarea::placeholder{
+    color: rgba(255, 0, 0, 0.555);
+    font-weight: 600;
+    padding-left: 20px;
+  }
+  textarea{
+    border-radius: 20px;
+    border: 1px solid red;
+    background-color: white;
+    height: 200px;
+  }
+  .send{
+    width: 150px;
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+  }
+  .send:hover{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    padding: 7px 15px;
+  }
+  .map{
+    width: 100%;
+    height: 100%;
+  }
+}
