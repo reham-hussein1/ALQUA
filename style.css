@@ -1,5 +1,5 @@
 /* *********************** Variables ***************************** */
-:root {
+/* :root {
   --main-color: #070F2B;
   --text-color: #1B1A55;
   --background-color: #1D24CA;
@@ -9,7 +9,7 @@
   --white-color:white;
   --body-color:#D2E0FB;
   --grey-color:#D1D8C5;
-}
+} */
 /* ************************************************************** */
 /* ********************** loading section ********************** */
 .spinner {
@@ -48,7 +48,7 @@
   }
 }
 /* ************************************************************** */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -57,49 +57,49 @@
   list-style-type: none;
   outline: none;
 }
-body{
+body {
   width: 99vw;
-  background-color:var(--body-color);
+  background-color: var(--body-color);
 }
 /* ************************************************************** */
 /* *************************header******************************* */
-header{
-  .logo-img{
-  width: 60px;
-  height: 40px;
+header {
+  .logo-img {
+    width: 60px;
+    height: 40px;
   }
-  #navbar-brand{
+  #navbar-brand {
     color: blue;
     font-weight: 700;
   }
-  #search{
+  #search {
     width: 130px;
     border-radius: 20px;
   }
-  #search:focus{
+  #search:focus {
     outline: none;
     border: 0;
   }
-  .nav-link{
+  .nav-link {
     color: black;
     font-weight: 700;
   }
-  .dropdown-menu{
+  .dropdown-menu {
     background-color: black;
   }
-  .dropdown-item{
+  .dropdown-item {
     color: white;
     font-weight: 600;
   }
-  .nav-item:hover{
+  .nav-item:hover {
     background-color: red;
     border-radius: 15px;
   }
-  .dropdown-item:hover{
+  .dropdown-item:hover {
     background-color: red;
     color: white;
   }
-  .btn-outline-success{
+  .btn-outline-success {
     border-radius: 20px;
     width: 80px;
     color: white;
@@ -107,60 +107,60 @@ header{
     border: 0;
     font-weight: 700;
   }
-  .btn-outline-success:hover{
+  .btn-outline-success:hover {
     background-color: white;
     color: red;
     border: 1px solid red;
   }
 }
-footer{
+footer {
   background-color: black;
   color: white;
-  #top{
+  #top {
     padding-top: 20px;
   }
-  .footer-logo{
+  .footer-logo {
     width: 150px;
     height: 150px;
   }
-  .dashed{
+  .dashed {
     border: 2px solid white;
     border-style: dashed;
     color: white;
   }
-  .copyright{
+  .copyright {
     text-align: center;
     padding-bottom: 10px;
   }
-  h5{
+  h5 {
     color: rgba(255, 0, 0, 0.692);
     font-weight: 600;
   }
-  a{
+  a {
     display: block;
     margin-bottom: 10px;
     text-decoration: none;
     color: white;
   }
-  a:hover{
+  a:hover {
     color: red;
     font-weight: 700;
   }
-  .contact-footer{
-    color:red;
+  .contact-footer {
+    color: red;
     font-size: 20px;
   }
-  .contact-footer:hover{
+  .contact-footer:hover {
     color: brown;
   }
-  .social{
+  .social {
     color: red;
     font-size: 25px;
     padding: 10px;
     border-radius: 100%;
     border: 1px solid red;
   }
-  .social:hover{
+  .social:hover {
     rotate: 15deg;
     background-color: red;
     color: white;
@@ -168,51 +168,54 @@ footer{
   }
 }
 /* ************************************************************** */
-.span{
+.span {
   color: rgba(0, 0, 0, 0.514);
 }
-.p-red{
+.p-red {
   color: red;
   font-size: 20px;
   font-weight: 600;
 }
-.hr{
+.hr {
   border: 2px solid red;
   border-style: dashed;
   color: white;
 }
+.center {
+  text-align: center;
+}
 /* *************************home********************************* */
-.section-1-home{
-  .explore-a{
+.section-1-home {
+  .explore-a {
     text-decoration: none;
     background-color: red;
     color: white;
-    padding:10px 15px;
+    padding: 10px 15px;
     border-radius: 20px;
     font-weight: 700;
   }
-  .explore-a:hover{
+  .explore-a:hover {
     border: 1px solid red;
     color: red;
     background-color: white;
     padding: 7px 13px;
   }
-  .img-home{
+  .img-home {
     width: 80%;
     height: 400px;
     margin-left: 40px;
   }
 }
-.section-2-home{
+.section-2-home {
   text-align: center;
   padding-top: 20px;
-  h3{
+  h3 {
     padding-top: 10px;
   }
-  .father{
+  .father {
     position: relative;
   }
-  .child{
+  .child {
     position: absolute;
     background-color: white;
     border: 2px solid rgba(255, 0, 0, 0.646);
@@ -223,68 +226,68 @@ footer{
     right: 40%;
     color: red;
   }
-  .child:hover{
+  .child:hover {
     background-color: red;
     color: white;
     transform: rotate(15deg);
     padding: 15px;
   }
-  .card{
+  .card {
     border-radius: 20px;
     border: 1px solid red;
   }
 }
-.section-3-home{
+.section-3-home {
   margin-top: 30px;
-  .hr-div-two-home{
+  .hr-div-two-home {
     border: 2px solid red;
     border-style: dashed;
     color: white;
   }
-  #top-margin-div-two-home{
+  #top-margin-div-two-home {
     margin-top: 20px;
   }
-  .icons-div-two-home{
+  .icons-div-two-home {
     font-size: 30px;
     color: white;
     background-color: red;
     border-radius: 100%;
     padding: 8px;
   }
-  .icons-div-two-home:hover{
+  .icons-div-two-home:hover {
     background-color: white;
     color: red;
     border: 1px solid red;
     font-size: 25px;
   }
 }
-.section-4-home{
-  .align-div-section{
+.section-4-home {
+  .align-div-section {
     text-align: center;
   }
-  .content-div{
+  .content-div {
     padding: 0 30px;
   }
 }
-.section-5-home{
-  .card-img-top{
+.section-5-home {
+  .card-img-top {
     width: 100%;
     height: 250px;
     border-radius: 20px 20px 0 0;
   }
-  .card-icon{
+  .card-icon {
     color: red;
     font-size: 20px;
   }
-  .card-top{
+  .card-top {
     margin-top: 10px;
     border-radius: 20px;
     border: 1px solid red;
   }
-  #father-more-courses{
+  #father-more-courses {
     position: relative;
   }
-  .more-courses{
+  .more-courses {
     text-decoration: none;
     background-color: red;
     border-radius: 20px;
@@ -295,7 +298,7 @@ footer{
     top: 50%;
     left: 30px;
   }
-  .more-courses:hover{
+  .more-courses:hover {
     padding: 7px 15px;
     rotate: 10deg;
   }
@@ -419,4 +422,3 @@ footer{
     margin-bottom: 20px;
   }
 }
-/* ************************* courses ********************************* */
