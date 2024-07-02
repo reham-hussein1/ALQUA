@@ -301,3 +301,121 @@ footer{
   }
 }
 /* ************************* about********************************* */
+.section-1-about {
+  h2 {
+    font-size: 40px;
+    color: red;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  .check {
+    color: green;
+    font-size: 20px;
+  }
+  .father-about {
+    position: relative;
+  }
+  .child-about {
+    position: absolute;
+  }
+  .first {
+    width: 200px;
+    height: 150px;
+  }
+  .first:hover {
+    width: 220px;
+    height: 170px;
+    z-index: 100;
+  }
+  .two {
+    width: 200px;
+    height: 150px;
+    bottom: 20px;
+    right: 20px;
+  }
+  .two:hover {
+    width: 220px;
+    height: 170px;
+    z-index: 100;
+  }
+  .three {
+    width: 200px;
+    height: 150px;
+    left: 30%;
+    bottom: 30%;
+  }
+  .three:hover {
+    width: 220px;
+    height: 170px;
+  }
+  .four {
+    color: white;
+    background-color: red;
+    padding: 20px;
+    top: 20px;
+    right: 40px;
+    border-radius: 100%;
+    font-size: 30px;
+  }
+  .four:hover {
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    font-size: 33px;
+  }
+  .five {
+    color: white;
+    background-color: red;
+    padding: 20px;
+    bottom: 20px;
+    left: 40px;
+    border-radius: 100%;
+    font-size: 30px;
+  }
+  .five:hover {
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    font-size: 33px;
+  }
+}
+.section-2-about {
+  .div-about {
+    margin: 50px;
+  }
+  .card-icon {
+    color: white;
+    background-color: red;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+  }
+  .card-icon:hover {
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    font-size: 17px;
+  }
+  .card {
+    border-radius: 20px;
+    height: 250px;
+    background-color: rgba(211, 73, 73, 0.336);
+  }
+  .icon-icon {
+    font-size: 30px;
+    color: red;
+    padding: 15px;
+    background-color: rgba(211, 73, 73, 0.336);
+    border-radius: 100%;
+  }
+  .card-color {
+    background-color: white;
+    height: 200px;
+  }
+  #top-mar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
