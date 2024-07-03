@@ -495,3 +495,28 @@ footer {
     height: 100%;
   }
 }
+/* ************************* courses ********************************* */
+.section-1-courses{
+height: 80vh;
+position: relative;
+h1{
+  position: absolute;
+  top: 30vh;
+  left: 45vw;
+}
+}
+.section-2-courses{
+  img{
+    width: 100%;
+    height: 250px;
+  }
+  h5{
+    text-align: center;
+  }
+  .book-time{
+    color: red;
+  }
+  .card-bottom{
+    margin-bottom: 20px;
+  }
+}
