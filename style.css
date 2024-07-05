@@ -633,3 +633,18 @@ h1{
     font-weight: 700;
   }
 }
+/* **************************** career ******************************* */
+.section-1-career{
+  h3{
+    color: red;
+  }
+  h4{
+    color: red;
+  }
+}
+.section-2-career{
+  margin-top: 20px;
+  h4{
+    color: red;
+  }
+}
