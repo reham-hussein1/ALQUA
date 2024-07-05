@@ -648,3 +648,26 @@ h1{
     color: red;
   }
 }
+/* ************************** instructor****************************** */
+.section-1-instructor{
+  height: 40vh;
+  h1{
+    position: absolute;
+    top: 30vh;
+    left: 40vw;
+    color: red;
+  }
+}
+.section-2-instructor{
+  .top-mm{
+    margin-top: 20px;
+  }
+  .card{
+    border-radius: 30px;
+    text-align: center;
+  }
+  img{
+    height:300px;
+    border-radius: 30px;
+  }
+}
