@@ -520,3 +520,93 @@ h1{
     margin-bottom: 20px;
   }
 }
+/* ********************** courses detail ***************************** */
+.section-1-courses-detail {
+  height: 50vh;
+  position: relative;
+  div {
+    position: absolute;
+    top: 20vh;
+    left: 40vw;
+  }
+}
+.section-2-courses-detail {
+  .flex-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  a:hover{
+    color:red;
+  }
+  .img-div{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    z-index: 100;
+  }
+  .green{
+    color: green;
+    font-size: 22px;
+  }
+}
+.section-3-courses-detail{
+  h3{
+    color: red;
+  }
+  .top-m{
+    margin-top: 20px;
+  }
+  .drop{
+    border: none;
+    border-radius: 20px;
+  }
+  .drop-item{
+    border: none;
+    border-radius: 20px;
+  }
+  .accordion-button{
+    background-color: rgba(255, 0, 0, 0.612);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+  }
+  .accordion-button:focus{
+    background-color: white;
+    color: red;
+  }
+  #m-t{
+    margin-top: 20px;
+  }
+  .red{
+    color: red;
+    font-size: 20px;
+  }
+  h4{
+    color: red;
+    font-weight: 600;
+  }
+  #side{
+    border: 1px solid red;
+    border-radius: 30px;
+  }
+  .red{
+    color: red;
+  }
+  .p{
+    color: rgba(0, 0, 0, 0.514);
+    font-weight: 600;
+  }
+  .p:hover{
+    color: red;
+  }
+}
