@@ -700,3 +700,43 @@ h1{
     font-size: 20px;
   }
 }
+/* ************************ blog categories ***************************** */
+.section-1-blog-cat{
+  height: 40vh;
+  h1{
+    position: absolute;
+    top: 30vh;
+    left: 39vw;
+    color: red;
+  }
+}
+.section-2-blog-cat{
+  margin-bottom: 20px;
+  .card{
+    height: 100vh;
+    border-radius: 30px;
+  }
+  img{
+    border-radius: 30px;
+  }
+  h4{
+    color: red;
+  }
+  a{
+    display: block;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-radius: 40px;
+    background-color: red;
+    border: 0;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+  a:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+  }
+}
